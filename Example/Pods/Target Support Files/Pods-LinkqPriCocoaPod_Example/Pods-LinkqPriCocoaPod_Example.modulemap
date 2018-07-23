@@ -1,0 +1,6 @@
+framework module Pods_LinkqPriCocoaPod_Example {
+  umbrella header "Pods-LinkqPriCocoaPod_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

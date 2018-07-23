@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LinkqPriCocoaPod_Example' do
+  pod 'LinkqPriCocoaPod', :path => '../'
+
+  target 'LinkqPriCocoaPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
